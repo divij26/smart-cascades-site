@@ -2,11 +2,11 @@
 title: Terms of Service
 ---
 
-# Smart Cascades – Terms of Service
+# Smart Dependent Dropdowns – Terms of Service
 
 _Last updated: 11 November 2026_
 
-These terms cover your use of Smart Cascades ("the app"), a monday.com app run by Divij Sharma, London, United Kingdom ("we"). By installing or using the app, you agree to them.
+These terms cover your use of Smart Dependent Dropdowns ("the app"), a monday.com app run by Divij Sharma, London, United Kingdom ("we"). By installing or using the app, you agree to them.
 
 ## 1. The service
 

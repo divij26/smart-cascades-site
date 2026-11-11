@@ -2,15 +2,15 @@
 title: Privacy Policy
 ---
 
-# Smart Cascades – Privacy Policy
+# Smart Dependent Dropdowns – Privacy Policy
 
 _Last updated: 11 November 2026_
 
-Smart Cascades ("the app", "we") is a monday.com app that lets one dropdown column depend on another. This policy explains what data the app handles and why.
+Smart Dependent Dropdowns ("the app", "we") is a monday.com app that lets one dropdown column depend on another. This policy explains what data the app handles and why.
 
 ## Who we are
 
-Smart Cascades is built and run by Divij Sharma, London, United Kingdom, who is the data controller for the data below. Contact: [divij26@gmail.com](mailto:divij26@gmail.com).
+Smart Dependent Dropdowns is built and run by Divij Sharma, London, United Kingdom, who is the data controller for the data below. Contact: [divij26@gmail.com](mailto:divij26@gmail.com).
 
 ## What we store
 
