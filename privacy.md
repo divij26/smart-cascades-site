@@ -33,7 +33,26 @@ We use this data to provide the app you installed (performance of a contract) an
 
 ## Where data is kept
 
-Data is stored on monday code, monday.com's hosting platform, in its EU region. We don't use any other hosting, analytics, advertising or tracking services.
+Data is stored on monday code, monday.com's hosting platform, in its EU region. 
+
+## Third-party services
+
+| Service | What for | Customer data? |
+|---|---|---|
+| monday code (monday.com) | Hosts the app's server and screens, and its database | Yes: the setup data above |
+| GitHub Pages (GitHub) | Hosts this public website: support, privacy, terms and the how-to page | No |
+
+We use no analytics, advertising, tracking, email or AI services.
+
+## Logs and cookies
+
+Our server logs only the monday account ID when an account uninstalls the app. Logs hold no board data and no personal details. They are kept by monday code under its own retention rules.
+
+The app sets no cookies of its own and uses no tracking technology. This website sets none either.
+
+## When we contact you
+
+We contact you only to answer a support request you sent us, or to tell you about a security problem, a billing issue or a change to these documents. We send no marketing.
 
 ## Payments
 

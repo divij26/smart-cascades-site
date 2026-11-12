@@ -23,6 +23,10 @@ The app adds a Cascading Dropdown column to monday.com boards. It shows only the
 
 You own your board data. We store only the setup data described in our [Privacy Policy](privacy). Uninstalling the app deletes that data.
 
+## 3a. Contacting you
+
+We will contact you only to answer a support request you sent us, or to tell you about a security problem, a billing issue or a change to these terms or our privacy policy. We send no marketing.
+
 ## 4. Fair use
 
 Don't use the app to break the law, attack or overload our service, or get around plan limits.
