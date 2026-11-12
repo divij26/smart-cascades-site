@@ -42,8 +42,10 @@ Data is stored on monday code, monday.com's hosting platform, in its EU region.
 |---|---|---|
 | monday code (monday.com) | Hosts the app's server and screens, and its database | Yes: the setup data above |
 | GitHub Pages (GitHub) | Hosts this public website: support, privacy, terms and the how-to page | No |
+| Cloudflare | Domain name (DNS) and forwarding of support email to our inbox | Only emails you send us |
+| monday.com image host | The support page loads monday's "Add to monday.com" button image from monday's servers | No |
 
-We use no analytics, advertising, tracking, email or AI services.
+We use no analytics, advertising, tracking or AI services.
 
 ## Logs and cookies
 
