@@ -5,6 +5,8 @@ hero_text: Dependent (cascading) dropdowns for monday.com. Pick a Building, and 
 
 # Smart Dependent Dropdowns – Support
 
+<p class="install"><a href="https://auth.monday.com/oauth2/authorize?client_id=a7af694392f6c32c1e0d4c5ba9b9d6ac&amp;response_type=install"><img alt="Add to monday.com" height="32" src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/uploads/Tal/4b5d9548-0598-436e-a5b6-9bc5f29ee1d9_Group12441.png"></a></p>
+
 ## Get help
 
 Email [support@zedmere.com](mailto:support@zedmere.com). We reply within 2 business days.
