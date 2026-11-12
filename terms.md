@@ -57,4 +57,4 @@ These terms are governed by the laws of England and Wales, and its courts handle
 
 ## Contact
 
-[divij26@gmail.com](mailto:divij26@gmail.com)
+[support@zedmere.com](mailto:support@zedmere.com)
