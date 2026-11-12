@@ -1,10 +1,9 @@
 ---
 title: Smart Dependent Dropdowns – Support
+hero_text: Dependent (cascading) dropdowns for monday.com. Pick a Building, and the Room column shows only that building's rooms.
 ---
 
 # Smart Dependent Dropdowns – Support
-
-Dependent (cascading) dropdowns for monday.com. Pick a Building, and the Room column shows only that building's rooms.
 
 ## Get help
 

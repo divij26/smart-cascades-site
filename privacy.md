@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+hero_text: How we handle your data.
 ---
 
 # Smart Dependent Dropdowns – Privacy Policy
