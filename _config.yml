@@ -1,3 +1,8 @@
 title: Smart Dependent Dropdowns
 description: Dependent (cascading) dropdowns for monday.com
-theme: jekyll-theme-minimal
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
