@@ -10,7 +10,7 @@ Smart Dependent Dropdowns ("the app", "we") is a monday.com app that lets one dr
 
 ## Who we are
 
-Smart Dependent Dropdowns is built and run by Divij Sharma, London, United Kingdom, who is the data controller for the data below. Contact: [divij26@gmail.com](mailto:divij26@gmail.com).
+Smart Dependent Dropdowns is built and run by Divij Sharma, London, United Kingdom, who is the data controller for the data below. Contact: [support@zedmere.com](mailto:support@zedmere.com).
 
 ## What we store
 
@@ -68,7 +68,7 @@ We keep setup data while the app is installed. When an account uninstalls the ap
 
 ## Your rights
 
-You can ask us to see, correct or delete your data by emailing [divij26@gmail.com](mailto:divij26@gmail.com). We reply within 30 days. If you're unhappy with how we handle your data, you can complain to the UK Information Commissioner's Office ([ico.org.uk](https://ico.org.uk)).
+You can ask us to see, correct or delete your data by emailing [support@zedmere.com](mailto:support@zedmere.com). We reply within 30 days. If you're unhappy with how we handle your data, you can complain to the UK Information Commissioner's Office ([ico.org.uk](https://ico.org.uk)).
 
 ## Security
 

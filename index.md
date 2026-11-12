@@ -8,7 +8,7 @@ Dependent (cascading) dropdowns for monday.com. Pick a Building, and the Room co
 
 ## Get help
 
-Email [divij26@gmail.com](mailto:divij26@gmail.com). We reply within 2 business days.
+Email [support@zedmere.com](mailto:support@zedmere.com). We reply within 2 business days.
 
 Please include your board link and a short note on what you expected to happen.
 
