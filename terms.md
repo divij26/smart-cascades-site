@@ -1,5 +1,6 @@
 ---
 title: Terms of Service
+hero_text: The rules for using the app.
 ---
 
 # Smart Dependent Dropdowns – Terms of Service
