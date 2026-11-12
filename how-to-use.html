@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to use Smart Dependent Dropdowns</title>
+<style>
+  :root { --green: #037f4c; --ink: #1f2a2e; --muted: #5b6b70; --line: #e3e8ea; --tint: #e6f4ee; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--ink); background: #fff; }
+  main { max-width: 860px; margin: 0 auto; padding: 32px 24px 64px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 22px; margin: 40px 0 12px; padding-top: 8px; border-top: 1px solid var(--line); }
+  h3 { font-size: 17px; margin: 24px 0 8px; }
+  p.lead { font-size: 18px; color: var(--muted); margin: 0 0 24px; }
+  ol, ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  figure { margin: 16px 0 24px; }
+  img, video { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); display: block; }
+  figcaption { font-size: 14px; color: var(--muted); margin-top: 6px; }
+  .note { background: var(--tint); border-left: 4px solid var(--green); padding: 12px 16px; border-radius: 6px; margin: 16px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { background: #f6f8f9; }
+  code { background: #f2f4f5; padding: 1px 5px; border-radius: 4px; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>How to use Smart Dependent Dropdowns</h1>
+<p class="lead">Make one dropdown depend on another. Pick a City, and the Office column shows only the offices in that city.</p>
+
+<figure>
+  <video controls preload="metadata" playsinline src="how-to/promo.mp4"></video>
+  <figcaption>One-minute overview.</figcaption>
+</figure>
+
+<h2>Before you start</h2>
+<ul>
+  <li>A board with a <strong>Dropdown</strong> or <strong>Status</strong> column. This is the parent, for example <em>Country</em> or <em>City</em>.</li>
+  <li>You must be the <strong>board owner</strong> or an <strong>account admin</strong> to set up a cascade. Members can pick values. Viewers and guests can only look.</li>
+  <li>Each label in a column should be unique, for example <em>London HQ</em>, not just <em>HQ</em>.</li>
+  <li>monday allows up to 1,000 labels in one dropdown column.</li>
+</ul>
+
+<h2>Install</h2>
+<ol>
+  <li>In monday.com, open the <strong>Apps marketplace</strong>.</li>
+  <li>Search for <strong>Smart Dependent Dropdowns</strong> and click <strong>Install</strong>.</li>
+  <li>Choose which workspaces can use it, then confirm.</li>
+</ol>
+
+<h2>First-time setup</h2>
+
+<h3>1. Add the Cascading Dropdown column</h3>
+<p>On your board, click <strong>+</strong> at the right of the columns, find <strong>Cascading Dropdown</strong>, and add it. Rename it, for example <em>Office</em>. Click any cell in the new column: it asks you to set it up.</p>
+<figure><img src="how-to/1-open.jpg" alt="A new Cascading Dropdown column with the message: This column isn't set up yet, and a Set up cascade button"><figcaption>Click <strong>Set up cascade</strong>.</figcaption></figure>
+
+<h3>2. Pick the parent column</h3>
+<p>Choose the column this one depends on. It can be a Dropdown, a Status, or another Cascading Dropdown, so you can chain levels.</p>
+<figure><img src="how-to/2-parent.jpg" alt="Setup screen with the Parent column list open, showing Asset type, Country and City (cascading)"></figure>
+
+<h3>3. Tick which options belong to each parent value</h3>
+<p>Pick a value on the left, then tick the options it allows on the right. Use <strong>All</strong> or <strong>None</strong> to go faster. You can add new labels at the bottom of each list.</p>
+<figure><img src="how-to/3-map.jpg" alt="Setup screen: parent City, with London, Manchester and New York on the left and their counts"></figure>
+
+<h3>4. Or paste from Excel or CSV</h3>
+<p>Open <strong>Paste from CSV or Excel</strong>. Paste one pair per line: <code>parent,child</code>. Click <strong>Preview</strong> to check, then <strong>Apply</strong>. Labels that don't exist yet are created for you.</p>
+<figure><img src="how-to/4-csv.jpg" alt="CSV box with pasted pairs and a preview line listing 10 pairs and the new labels"></figure>
+
+<h3>5. Save, then pick values</h3>
+<p>Click <strong>Save</strong>. Now click any cell in the column: only the options that fit that row's parent value appear. Long lists get a search box.</p>
+<figure><img src="how-to/5-pick.jpg" alt="Office picker on a London row showing only London City Office and London Airport Hub"></figure>
+
+<h2>Good to know</h2>
+<table>
+  <tr><th>Situation</th><th>What happens</th></tr>
+  <tr><td>Parent is empty</td><td>The picker asks you to pick the parent first.</td></tr>
+  <tr><td>Parent changes later</td><td>The cell keeps its value and the picker warns that it no longer fits.</td></tr>
+  <tr><td>Multi-select parent</td><td>The picker shows options for every selected parent value.</td></tr>
+  <tr><td>Chains</td><td>Make a Cascading Dropdown the parent of another: Country, then City, then Office.</td></tr>
+  <tr><td>Remove a cascade</td><td>Open Setup and click <strong>Remove cascade</strong>. The column keeps its values and labels.</td></tr>
+</table>
+
+<h2>Plans</h2>
+<table>
+  <tr><th>Free</th><th>Pro</th></tr>
+  <tr><td>1 board, 2 cascades, CSV paste, search</td><td>Every board, unlimited cascades. One flat price for the whole account.</td></tr>
+</table>
+
+<h2>Need help?</h2>
+<p>Email <strong>divij26@gmail.com</strong> with your board link and what you expected to happen. We reply within 2 business days.</p>
+
+</main>
+</body>
+</html>
