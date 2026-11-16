@@ -53,7 +53,14 @@ The app offers two skills to monday Sidekick, monday's AI assistant. Sidekick ru
 
 ## Logs and cookies
 
-Our server logs only the monday account ID when an account uninstalls the app. Logs hold no board data and no personal details. They are kept by monday code under its own retention rules.
+Our server writes short log lines to monday code's logs. They record:
+
+- an uninstall (the monday account ID);
+- each Sidekick call (the account ID and whether it worked or was refused);
+- a refused Sidekick role check (the monday user kind, such as guest, with no name);
+- an unexpected error (the error type, the route, the account ID and a request ID).
+
+Logs never hold board data, dropdown labels, text you type, CSV text, names, emails or tokens. A monday account ID is a number that points to your company's account, so we treat it as personal data. We use these logs only to find and fix faults. monday code also keeps its own record of each web request to our server (path, status, time and size). Both are kept by monday code under its own retention rules, and we do not copy them anywhere else.
 
 The app sets no cookies of its own and uses no tracking technology. This website sets none either.
 
