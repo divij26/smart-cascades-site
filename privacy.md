@@ -5,7 +5,7 @@ hero_text: How we handle your data.
 
 # Smart Dependent Dropdowns – Privacy Policy
 
-_Last updated: 11 November 2026_
+_Last updated: 16 November 2026_
 
 Smart Dependent Dropdowns ("the app", "we") is a monday.com app that lets one dropdown column depend on another. This policy explains what data the app handles and why.
 
@@ -45,7 +45,11 @@ Data is stored on monday code, monday.com's hosting platform, in its EU region.
 | Cloudflare | Domain name (DNS) and forwarding of support email to our inbox | Only emails you send us |
 | monday.com image host | The support page loads monday's "Add to monday.com" button image from monday's servers | No |
 
-We use no analytics, advertising, tracking or AI services.
+We use no analytics, advertising or tracking services, and our server runs no AI model and calls no AI service.
+
+## monday Sidekick
+
+The app offers two skills to monday Sidekick, monday's AI assistant. Sidekick runs inside monday.com, under monday's own terms and privacy policy. When you use a skill, monday sends our server only what the skill needs: the board ID, column names, the dropdown pairs you typed, and a signed token for your account and user. We store nothing new from this. A set-up request saves the same cascade setup data listed above. A "find bad values" request only reads your board, and we keep none of what it reads.
 
 ## Logs and cookies
 
